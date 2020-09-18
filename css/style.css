@@ -1,17 +1,16 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
   color: #333333;
 }
 
 .conteiner {
   max-width: 1110px;
   margin: auto;
-  border: 1px solid red;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -61,7 +60,7 @@ h1 {
  */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -99,7 +98,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -247,7 +246,7 @@ fieldset {
  */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -282,7 +281,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -366,11 +365,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -381,7 +380,7 @@ template {
 }
 
 .navbar-bottom {
-  background-color: #0A223D;
+  background-color: #0a223d;
 }
 
 .navbar-menu {
@@ -392,11 +391,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #ffffff;
 }
 
@@ -426,7 +425,7 @@ template {
   height: 40px;
   padding-left: 23px;
   padding-right: 75px;
-  background-color: #F5FAFE;
+  background-color: #f5fafe;
   border-radius: 6px;
   border: none;
   font-size: 12px;
@@ -441,7 +440,7 @@ template {
   height: 100%;
   width: 65%;
   border: none;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
 }
 
 .user {
@@ -449,8 +448,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -459,7 +458,7 @@ template {
   height: 40px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .user__avatar__name {
