@@ -13,6 +13,10 @@ body {
   margin: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -379,7 +383,7 @@ template {
   margin-left: 108px;
 }
 
-.navbar__menu-button {
+.navbar__search__menu-button {
   display: none;
 }
 
@@ -422,6 +426,7 @@ template {
   position: relative;
   overflow: hidden;
   border-radius: 6px;
+  height: 40px;
 }
 
 .search__input {
@@ -430,7 +435,6 @@ template {
   padding-left: 23px;
   padding-right: 75px;
   background-color: #F5FAFE;
-  border-radius: 6px;
   border: none;
   font-size: 12px;
   line-height: 15px;
@@ -442,7 +446,7 @@ template {
   top: 0;
   right: 0;
   height: 100%;
-  width: 65%;
+  width: 65px;
   border: none;
   background-color: #EC1F46;
 }
@@ -465,7 +469,7 @@ template {
      object-fit: cover;
 }
 
-.user__avatar__name {
+.user__name {
   margin-left: 18px;
   font-size: 14px;
   line-height: 18px;
@@ -519,6 +523,7 @@ template {
     display: flex;
     width: 16px;
     height: 11px;
+    padding: 0;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
