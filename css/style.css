@@ -8,7 +8,7 @@ body {
   color: #333333;
 }
 
-.conteiner {
+.container {
   max-width: 1110px;
   margin: auto;
 }
@@ -378,13 +378,13 @@ template {
   padding-bottom: 40px;
 }
 
+.navbar-top__menu-button {
+  display: none;
+}
+
 .navbar__search {
   margin: auto;
   margin-left: 108px;
-}
-
-.navbar__search__menu-button {
-  display: none;
 }
 
 .navbar-bottom {
@@ -477,13 +477,13 @@ template {
 }
 
 @media (max-width: 1200px) {
-  .conteiner {
+  .container {
     max-width: 960px;
   }
 }
 
 @media (max-width: 992px) {
-  .conteiner {
+  .container {
     max-width: 700px;
   }
   .logo {
@@ -494,11 +494,14 @@ template {
     padding-bottom: 30px;
   }
   .navbar__search {
-    margin-left: auto;
+    margin-left: 38px;
+    margin-right: 64px;
   }
   .navbar-menu {
-    padding-top: 22px;
+    padding-top: 20px;
     padding-bottom: 22px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .navbar-menu__link {
     font-size: 12px;
@@ -507,12 +510,19 @@ template {
   .search__input {
     width: 340px;
   }
+  .user__name {
+    margin-left: 16px;
+    margin-right: 10px;
+  }
 }
 
-@media (max-width: 768px) {
-  .conteiner {
-    max-width: 576px;
-    width: 92%;
+@media (max-width: 767px) {
+  .container {
+    max-width: 577px;
+    width: 88%;
+  }
+  .navbar-top {
+    padding-top: 23px;
   }
   .navbar__search, .navbar-menu, .navbar__user {
     display: none;
