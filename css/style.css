@@ -471,7 +471,8 @@ template {
 }
 
 .user__name {
-  margin-left: 18px;
+  margin-right: 7px;
+  margin-left: 20px;
   font-size: 14px;
   line-height: 18px;
   color: #333333;
@@ -505,7 +506,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 15px;
   padding-bottom: 70px;
 }
 
@@ -536,7 +537,7 @@ template {
 }
 
 .hotel-info__description {
-  margin: 5px 0;
+  margin: 0px 0;
 }
 
 .hotel-name {
@@ -575,6 +576,7 @@ template {
 }
 
 .rating {
+  margin-top: 8px;
   max-width: 65px;
   min-height: 45px;
   text-align: center;
