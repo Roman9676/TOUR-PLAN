@@ -593,6 +593,10 @@ template {
   line-height: 18px;
 }
 
+.rating__counter__little {
+  font-size: 8px;
+}
+
 .swiper-container {
   border-radius: 8px;
   width: 100%;
